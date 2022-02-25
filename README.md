@@ -1,16 +1,10 @@
-# GlassEffectMenu
-<p align="center">
-  <h1 align="center" style="font-size: 48px;"> Glassmorphic Menu Example 🔨</h1>
-</p>
-
-<p align="center">
-  <h1 align="center" style="font-size: 48px;">Glassmorphic menu width HTML / CSS / Javascript 📱 💻</h1>
-</p>
+# GlassEffectMenu 🔨
+### Glassmorphic menu width HTML / CSS / Javascript 📱 💻
 
 
-### To use `GlassmorphicContainer` with fixed Height and width:
+### INDEX.HTML:
 
-```INDEX.HTML
+```HTML
 <html>
     <head>
         <title></title>
@@ -48,9 +42,9 @@
 </html>
 ```
 
-### Use `GlassmorphicFlexContainer` with responsiveness or take child widgets size. :
+### GLASS.CSS :
 
-```GLASS.CSS
+```css
 #menu
 {
     position            : absolute;
@@ -148,7 +142,8 @@
 
 ```
 
-```ABRECIERRA.JS
+### ABRECIERRA.JS :
+```JS
 var $fn_aoc = function()
 {
     if(obgral.instance == 0)

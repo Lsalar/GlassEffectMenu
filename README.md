@@ -173,7 +173,7 @@ var     brg     = document.getElementById("brg");
 - _Official_
   - [_Github_](https://github.com/Lsalar)
   - [_Instagram_](https://www.instagram.com/rdigital.me)
-  - [_Email_](be@rdigital.me)
+  - [_Email_](mailto:be@rdigital.me)
 - _Personal_
   - [Instagram](https://www.instagram.com/lewi.me/)
 

@@ -1,0 +1,114 @@
+*
+{
+	font-size: 130% !important;
+}
+p
+{
+	position	: relative;
+	box-sizing	: border-box;
+	padding		: 3rem;
+	text-align	: left;
+	color		: #ffffff;
+}
+	p strong
+	{
+		font-weight	: bold;
+		width		: 100%;
+		display		: block;
+		color		: #ffffff;
+		font-size	: 2rem;
+	}
+#menu
+{
+	position			: absolute;
+	top					: 0;
+	left				: 0;
+	max-width			: 519px;
+	min-width			: 150px;
+	width				: 100%;
+	height				: 100%;
+	z-index				: 3;
+	transform			: translateX(-100%);
+	backdrop-filter		: blur(8px);
+	background-color	: rgb(255 255 255 / 3%);
+	box-shadow			: 0 8px 10px 0 rgb(7 7 7 / 14%);
+	border-right		: 0.5px solid rgba(255,255,255,.1);
+	
+	transition			: transform 300ms ease-out;
+}
+#menu.active
+{
+	transform	: translateX(0);
+}
+#menu .cmn:hover
+{
+	font-weight	: bold;
+}
+#menu .cmn
+{
+	width		: 100%;
+	box-sizing	: border-box;
+	padding		: 1.4rem 5.3rem;
+	font-size	: 1.8rem;
+	color		: #ffffff;
+	text-align	: left;
+	cursor		: pointer;
+	font-weight	: bolder;
+	text-shadow	: -3px -1px 52px #000000;
+}
+#menu .back:hover
+{
+	transform	: scale(1.1);
+}
+#menu .back
+{
+	cursor			: pointer;
+	color			: #ffffff;
+	font-size		: 1.7rem;
+	margin-bottom	: 1rem;
+	padding			: 0.5rem 1.3rem;
+	box-sizing		: border-box;
+	width			: 100%;
+}
+#menu footer
+{
+	position	: absolute;
+	bottom		: 0;
+	left		: 0;
+	width		: 100%;
+	height		: 35px;
+	font-size	: 1rem;
+	text-align	: right;
+	color		: #ffffff;
+	box-sizing	: border-box;
+	padding		: 0 2rem;
+}
+#bg_grad
+{
+	position			: relative;
+	left				: 0;
+	top					: 0;
+	width				: 100%;
+	height				: 100%;
+	z-index				: 0;
+
+	background-color	: #A06ACE;
+	opacity				: 1;
+	background			: #cc6add;
+	background			: -moz-linear-gradient(-45deg,  #cc6add 0%, #6ba0e0 100%);
+	background			: -webkit-linear-gradient(-45deg,  #cc6add 0%,#6ba0e0 100%);
+	background			: linear-gradient(135deg,  #cc6add 0%,#6ba0e0 100%);
+	filter				: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc6add', endColorstr='#6ba0e0',GradientType=1 );
+
+}
+#brg
+{
+	cursor		: pointer;
+	width		: 50px;
+	height		: 50px;
+	position	: absolute;
+	left		: 0.5rem;
+	top			: 0.5rem;
+	z-index		: 2;
+	color		: #ffffff;
+}

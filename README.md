@@ -8,22 +8,6 @@
 </p>
 
 
-> ## You can follow this tutorial and play.
->
-
-[![Everything Is AWESOME](https://raw.githubusercontent.com/RitickSaha/glassmorphism/master/images/embed.png)](https://www.youtube.com/watch?v=MKj_7zyeeOQ "Play the video.")
-
-## Features 🔮
-
-- Fully customizable components
-- Easy To use
-- Null Safe version
-- Multiple Childs widgets supported
-- Gesture Listener [GestureDetector](https://api.flutter.dev/flutter/widgets/GestureDetector-class.html)
-- Circular Border / Traditional Borders
-- Gradient Borders
-- Gradient Fill on container `[Full Control to User]`
-
 ### To use `GlassmorphicContainer` with fixed Height and width:
 
 ```INDEX.HTML

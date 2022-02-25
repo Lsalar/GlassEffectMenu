@@ -180,7 +180,7 @@ var     brg     = document.getElementById("brg");
 
 ## Found this project useful? ❤️
 
-If you found this tuto useful, buy me a coffee. - [MIT](https://www.buymeacoffee.com/Lsalar)
+If you found this tuto useful, buy me a coffee. - [Buy me a coffee ☕](https://www.buymeacoffee.com/Lsalar)
 
 ## License ⚖️
 
